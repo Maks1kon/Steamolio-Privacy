@@ -6,7 +6,7 @@ Last updated: April 17, 2026
 
 This Privacy Policy describes how the Steamolio Chrome extension handles data.
 
-Steamolio is a Chrome extension for tracking a personal CS2 item portfolio. Most portfolio data is stored locally in the browser. The extension can also make direct requests to third-party services for item price refresh and load external item preview images from catalog-derived URLs.
+Steamolio is a Chrome extension for tracking a personal CS2 item portfolio. Portfolio data is stored locally in the browser. The extension can also make direct requests to third-party services for item price refresh and load external item preview images from catalog-derived URLs.
 
 ## Data Stored Locally
 
@@ -43,13 +43,11 @@ Those requests use the user's CSFloat API key in the request headers and send it
 
 The CSFloat API key is stored locally and is sent to CSFloat only for price requests and API key validation.
 
-Portfolio name, purchase history, buy prices, quantities, notes, and snapshots are not included in CSFloat API requests in the extension.
+Portfolio data such as purchase history, buy prices, quantities, notes, and snapshots is not included in CSFloat API requests.
 
 ### External Item Images
 
 The extension UI may load item preview images from catalog-derived external image URLs. When those images are requested, the relevant image host may receive standard web request information such as the user's IP address, user agent, and request metadata.
-
-The current UI does not provide a feature for manually editing item URLs.
 
 ## No Developer Backend Or Analytics
 
